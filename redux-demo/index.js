@@ -73,6 +73,17 @@ function buyCake(){
  store.dispatch(buyIceCream());
  store.dispatch(buyIceCream());
 
+ //Middleware Concept and usage
+//  Middleware sits between dispatching an action and the moment it reaches the reducer.
+// It's super helpful for tasks like logging, handling asynchronous actions, or modifying actions before they reach the reducer.
+
+// Common uses include:
+
+// Logging actions and state changes
+// Handling API calls
+// Error reporting
+// Modifying or stopping actions based on certain conditions
+
  unsubscribe(); // to stop listening to the store changes
  
  
